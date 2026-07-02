@@ -1,5 +1,4 @@
 * {
-
     margin: 0;
     padding: 0;
 }
@@ -17,15 +16,23 @@ main {
     align-items: center;
 }
 
+section {
+    display: flex;
+    gap: 16px;
+
+}
+
 .cabecalho {
+    color: #833df3;
     padding: 15px 25px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #c3f8dd;
+    background-color: #a46ffa;
 }
 
 .cartao {
+    margin: 20px;
     width: 260px;
     height: 200px;
 }
@@ -46,7 +53,7 @@ main {
 }
 
 .cartao:hover .cartao-interno {
-   transform: rotateY (180deg)  
+    transform: rotateY (180deg)
 }
 
 
