@@ -42,6 +42,11 @@ main {
 
 }
 
+.cartao:hover .cartao-interno {
+   transform: rotateY (180deg)  
+}
+
+
 .cartao-frente,.cartao-verso {
 
     position: absolute;
@@ -51,7 +56,7 @@ main {
 
 }
 
-.cartao-verso{
+.cartao-verso {
 
     transform: rotateY(180deg);
 }
